@@ -61,7 +61,7 @@ function checkScormConnection()
     console.log('Checking SCORM connection...');
 
     var saveResult = scorm.save();
-    /*
+    
     if (saveResult === false || saveResult === 'false') {
         // (If we're here, the SCORM API is no longer able
         // to commit changes to the LMS for some reason.)
@@ -71,7 +71,7 @@ function checkScormConnection()
 
         clearInterval(scormConnectionTestInterval);
     }
-    */
+
 }
 
 function onFrameLoad()
